@@ -6,7 +6,7 @@ import { ImageUpload } from "@/components/food/image-upload";
 import { DetectedItemsReview } from "@/components/food/detected-items-review";
 import { InventoryList } from "@/components/food/inventory-list";
 import { MealPlanView } from "@/components/food/meal-plan-view";
-import type { InventoryItem, MealPlan } from "@/lib/anthropic";
+import type { InventoryItem, MealPlan } from "@/lib/llm";
 
 interface DBInventoryItem {
   id: number;

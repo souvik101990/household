@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/lib/db";
 import { inventoryItems, mealPlans } from "@/lib/db/schema";
-import { generateMealPlan } from "@/lib/anthropic";
+import { generateMealPlan } from "@/lib/llm";
 
 export async function GET() {
   try {
